@@ -1,7 +1,9 @@
 describe('Contact Form Aluminati', () => {
     it('Complete the contact form', () => {
-      // Visit the website
+      // Visit the website helloo
       cy.visit('https://aluminati.net')
+
+      //This is just a test
   
       // Click on the Contact link
       cy.get('#menu-item-17180').click();
@@ -15,7 +17,7 @@ describe('Contact Form Aluminati', () => {
   
       // Fill out the form
       cy.get('.contactUsForm > :nth-child(1)').type('Leroy Smith')
-      cy.get('.contactUsForm > :nth-child(2)').type('lsmith1872gmail.com')
+      cy.get('.contactUsForm > :nth-child(2)').type('lsmith187@gmail.com')
       cy.get('.contactUsForm > :nth-child(3)').type('0765371887')
       cy.get('.contactUsForm > :nth-child(4)').type('The Kop End')
       cy.get('.contactUsForm > :nth-child(5)').type('QA Engineer')

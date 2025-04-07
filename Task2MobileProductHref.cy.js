@@ -3,8 +3,10 @@ describe('Fetch href values in mobile view', () => {
       
       // Set the viewport to mobile dimensions
       cy.viewport('iphone-6');
+
+      //Just a test
   
-      // Visit the mobile site
+      // Visit the mobile site hello
       cy.visit('https://aluminati.net');
   
       // Navigate to Products → Aluminate for education
